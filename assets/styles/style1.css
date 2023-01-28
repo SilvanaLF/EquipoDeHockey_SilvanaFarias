@@ -1,3 +1,54 @@
-figure{
-    background: url(/assets/img/design1_image1.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.banner {
+    background-image: url(../img/design1_image1.jpg);
+    background-position: cover;
+    height: 200pt;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 78%;
+    left: 85%;
+    
+}
+
+h1{
+    font-family: 'Comic Neue', cursive;
+    font-size: 60px;
+    position: absolute;
+    border-top: 0cm;
+    border-left: 0cm;
+}
+
+h2{
+    font-family: 'Comic Neue', cursive;
+    font-size: 23px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+a{
+    display: block;
+}
+
+h3{
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
 }
