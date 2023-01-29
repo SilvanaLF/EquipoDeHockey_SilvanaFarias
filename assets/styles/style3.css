@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Bebas Neue, Poppins;
+    font-family: "Bebas Neue", "Poppins";
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 
 .banner {
     background-image: url(../img/design1_image2.jpg);
-    background-position: cover;
+    background-size: cover;
     height: 450px;
     position: relative;
     bottom: 100px;
