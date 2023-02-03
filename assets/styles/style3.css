@@ -287,9 +287,11 @@ header{
     margin-top: 50px;
     padding-bottom: 30px;
 }
+.schedule h4{
+    font-style: italic;
+}
 table {
     width: 900px;
-    height: 600px;
     padding: 50px 50px;
     font-family: 'Roboto', light;
     font-size: 15px;
@@ -320,6 +322,15 @@ th {
     padding-bottom: 15px;
 }
 
-.info_data a:hover{
+.flex_container a:hover{
     color: #ff470f;
+}
+
+.flex_container{
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 400px;
 }
