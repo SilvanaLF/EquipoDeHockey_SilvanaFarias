@@ -1,127 +1,325 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+/* Diseño Personal */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Bebas Neue", "Poppins";
 }
 
-/* Diseño Personal */
-
-body{
-    background-color:#bb9765;
+a{
+    text-decoration: none;
+    color: #000000;
 }
 
-.banner {
-    background-image: url(../img/design1_image2.jpg);
-    background-size: cover;
-    height: 450px;
-    position: relative;
-    bottom: 100px;
-}
-
-h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 80px;
-    color: #f8e12e;
-    background-color: #231f20;
-    padding: 10px;
-    position: absolute;
-    top: 100px;
-}
-
-.logo {
-    position: absolute;
-    top: 20%;
-    right: 2%;
-}
-
-h2{
-    font-family: 'Poppins', cursive;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    background-color: #231f20;
-    padding: 7px;
-    position: relative;
-    bottom: 80px;
-}
-
-h3{
-    font-family: 'Poppins', cursive;
-    font-size: 20px;
-}
-
-p{
-    font-family: 'Poppins', cursive;
-    font-size: 15px;
+a:hover{
+    color: #ffffff;
 }
 
 ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: #231f20;
-    position: absolute;
-    bottom: 275px;
-    left: 250px;
 }
 
-ul li{
-    display: inline-block;
-    font-family: 'Bebas Neue', cursive;
+/*Nav main*/
+
+.nav_main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to right, #ff470f, #f8e12e);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links li{
+    margin: 0 30px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+/* Header */
+
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header_content{
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+}
+
+.header_content h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 150px;
+    background: #ffffff;
+    padding: 30px;
+    opacity: 0.6;
+}
+
+.line{
+    width: 500px;
+    height: 5px;
+    background: #ff470f;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/*Upcoming Events*/
+
+.events{
+    position: absolute;
+    top: 650px;
+    background: #000000;
+    display: flex;
+    font-family: 'Roboto', normal;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.event_dates{
+   display: block;
+   position: absolute;
+   top: 700px;
+   left: 700px;
+   padding-bottom: 0px;
+   text-indent: 20px;
+}
+
+.event_dates h3{
+    font-family: 'Roboto', normal;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.event_dates p{
+    font-family: 'Roboto', light;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+/*About MDHL*/
+
+.about_content{
+    position: absolute;
+    top: 650px;
+    background: #000000;
+    display: flex;
+    font-family: 'Roboto', normal;
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+    color: #ffffff;
+}
+
+.hockey2{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+}
+
+.about_content1{
+    display: block;
+    position: absolute;
+    top: 700px;
+    left: 700px;
+    padding-bottom: 20px;
+    text-indent: 0px;
+ }
+
+ .about_content1 h3{
+    font-family: 'Roboto', normal;
     font-size: 22px;
-}
-  
-ul li a{
-    color: #f8e12e;
-    display: inline-block;
-    padding: 15px 105px;
-    text-decoration: none;
+    padding-bottom: 10px;
+    
 }
 
-ul li a:hover{
-    background-color: #ff470f;
+.about_content1 p{
+    font-family: 'Roboto', light;
+    font-size: 14px;
+    padding-bottom: 25px;
+    padding-right: 25px;
 }
 
-.fecha-evento{
-    display: block;
-    position: absolute;
-    left: 700px;
-}
-
-.fecha-evento h3{
-    padding-bottom: 5px;
-}
-
-.fecha-evento p{
-    padding-bottom: 20px;
-    text-indent: 20px;
-}
-
-.info-mdhl{
-    display: block;
-    position: absolute;
-    left: 700px;
-}
-
-.info-mdhl h3{
-    padding-bottom: 5px;
-}
-
-.info-mdhl p{
-    padding-bottom: 20px;
-    text-indent: 20px;
-}
+/*Contact*/
 
 .contact{
+    position: absolute;
+    top: 650px;
+    background: #000000;
+    display: flex;
+    font-family: 'Roboto', normal;
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+    color: #ffffff;
+}
+
+.hockey3{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+}
+
+.contact1{
     display: block;
     position: absolute;
+    top: 200px;
     left: 700px;
+    padding-bottom: 20px;
+    text-indent: 0px;
+ }
+
+.contact h2{
+    font-family: 'Roboto', normal;
+    font-size: 22px;
+    padding-bottom: 0px;
 }
-.contact p{
+
+.contact1 p{
+    font-family: 'Roboto', light;
+    font-size: 20px;
+    color: #000000;
     padding-bottom: 20px;
     text-indent: 20px;
+}
+
+.contact1 a:hover{
+    color: #ff470f;
+}
+
+/*Rules & Policies*/
+
+.container_rules{
+    margin: 25px 35px 25px 35px;
+    background-color: #eee;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.container_rules h3{
+    font-family: 'Roboto', normal;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container_rules h5{
+    font-family: 'Roboto', light;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container_rules h4{
+    font-family: 'Roboto', normal;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.container_rules dd{
+    font-family: 'Roboto', light;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.container_rules ol{
+    font-family: 'Roboto', light;
+    text-align: left;
+    list-style-position: inside;
+    padding-bottom: 5px;
+}
+
+.container_rules ul{
+    font-family: 'Roboto', light;
+    text-align: left;
+    list-style: lower-latin inside;
+    padding-bottom: 10px;
+}
+
+.container_rules li{
+    font-family: 'Roboto', light;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.container_rules p{
+    font-family: 'Roboto', light;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+/*Game info*/
+
+.schedule{
+    font-family: 'Roboto';
+    margin-left: 90px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+table {
+    width: 900px;
+    height: 600px;
+    padding: 50px 50px;
+    font-family: 'Roboto', light;
+    font-size: 15px;
+    text-align: center;
+}
+
+th {
+    padding: 15px;
+}
+
+.outdoor{
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    margin-left: 90px;
+    padding-bottom: 20px;
+}
+.outdoor p{
+    padding-bottom: 15px;
+}
+
+.info_data{
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    margin-left: 90px;
+    padding-bottom: 20px;
+}
+.info_data p{
+    padding-bottom: 15px;
+}
+
+.info_data a:hover{
+    color: #ff470f;
 }
