@@ -194,8 +194,8 @@ header{
 .contact1{
     display: block;
     position: absolute;
-    top: 200px;
-    left: 700px;
+    left: 800px;
+    bottom: -300px;
     padding-bottom: 20px;
     text-indent: 0px;
  }
@@ -204,14 +204,6 @@ header{
     font-family: 'Roboto', normal;
     font-size: 22px;
     padding-bottom: 0px;
-}
-
-.contact1 p{
-    font-family: 'Roboto', light;
-    font-size: 20px;
-    color: #000000;
-    padding-bottom: 20px;
-    text-indent: 20px;
 }
 
 .contact1 a:hover{
@@ -278,6 +270,9 @@ header{
     font-family: 'Roboto', light;
     text-align: left;
     padding-bottom: 5px;
+}
+.circle{
+    list-style-type: circle;
 }
 
 /*Game info*/
