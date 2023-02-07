@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 a{
@@ -333,4 +334,42 @@ th {
     justify-content: space-between;
     padding-left: 90px;
     padding-right: 400px;
+    padding-bottom: 40px;
 }
+
+.maps{
+    padding: 30px;
+}
+
+/*Form*/
+.registration_form{
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', normal;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    background-color: #f5dfc5;
+    padding: 20px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgb(153, 147, 131);
+}
+
+fieldset{
+    padding: 15px;
+}
+
+.input_s{
+    width: 200px;
+}
+
+.permision{
+    text-align: justify;
+}
+
